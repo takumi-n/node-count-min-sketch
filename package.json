@@ -4,6 +4,7 @@
   "description": "Count-min Sketch implementation for Node.js",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "ava test/index.ts"
   },
   "author": "",
