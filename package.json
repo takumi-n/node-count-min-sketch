@@ -1,0 +1,26 @@
+{
+  "name": "node-count-min-sketch",
+  "version": "1.0.0",
+  "description": "Count-min Sketch implementation for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.12.17",
+    "ava": "^2.4.0",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  },
+  "ava": {
+    "compileEnhancements": false,
+    "extensions": [
+      "ts"
+    ],
+    "require": [
+      "ts-node/register"
+    ]
+  }
+}
